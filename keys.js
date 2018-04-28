@@ -1,4 +1,5 @@
-console.log('this is loaded');
+console.log("\x1b[43m\x1b[34m", '***keys loaded, callingclear***');
+console.log("\x1b[34m");
 
 exports.twitter = {
   consumer_key: process.env.TWITTER_CONSUMER_KEY,
